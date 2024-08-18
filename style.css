@@ -1,30 +1,35 @@
 :root {
   --primary-bg-color: #07AB80;
   --secondary-bg-color: #5B636E;
+  --tertiary-bg-color: #cecece;
+  --dark-bg-color: #050A0E;
+  --light-bg-color: #FAFAFA;
   --box-shadow: #212223d3;
-  --tertiary-bg-color: #cecece75;
 }
 
 input,
 textarea {
   width: 100%;
   border: 1px solid black;
-  box-shadow: 0px 4px 5px var(--box-shadow);
+  /* box-shadow: 0px 4px 5px var(--box-shadow); */
   margin: .5em;
 }
 
+
 #formCheckbox {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   box-shadow: none;
-  padding: 0;
   margin: 0;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 0;
   accent-color: var(--primary-bg-color);
 }
 
-/* .form-header {
-  width: 50%;
-} */
+.txt-hidden {
+  color: red;
+}
 
 .form-btn {
   color: var(--primary-bg-color);
@@ -48,10 +53,43 @@ textarea {
   background-color: var(--tertiary-bg-color);
 }
 
+.bg-dark {
+  background-color: var(--dark-bg-color);
+}
+
+.bg-light {
+  background-color: var(--light-bg-color);
+}
+
 .txt-prim {
   color: var(--primary-bg-color);
 }
 
 .txt-sec {
   color: var(--secondary-bg-color);
+}
+
+.txt-tert {
+  color: var(--tertiary-bg-color);
+}
+
+.txt-dark {
+  color: var(--dark-bg-color);
+}
+
+.txt-light {
+  columns: var(--light-bg-color);
+}
+
+.grn-line {
+  border-left: 8px solid var(--primary-bg-color);
+  box-shadow: var(--box-shadow);
+  width: 50px;
+  height: 100px;
+}
+
+@media (max-width: 767px) {
+  .txt-hidden {
+    display: none;
+  }
 }
