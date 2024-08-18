@@ -2,6 +2,7 @@
   --primary-bg-color: #07AB80;
   --secondary-bg-color: #5B636E;
   --box-shadow: #212223d3;
+  --tertiary-bg-color: #cecece75;
 }
 
 input,
@@ -41,6 +42,10 @@ textarea {
 
 .bg-sec {
   background-color: var(--secondary-bg-color);
+}
+
+.bg-tert {
+  background-color: var(--tertiary-bg-color);
 }
 
 .txt-prim {
