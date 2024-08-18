@@ -21,21 +21,32 @@ textarea {
   accent-color: var(--primary-bg-color);
 }
 
-.btn-form {
-  margin-left: 2em;
+/* .form-header {
+  width: 50%;
+} */
+
+.form-btn {
   color: var(--primary-bg-color);
+  font-weight: 600;
+  background-color: white;
   box-shadow: none;
   border: 1px solid black;
 }
 
-.nav-bg {
+/* REMINDER CHANGE CARDS BORDER COLOR */
+
+.bg-prim {
   background-color: var(--primary-bg-color);
 }
 
-.gry-bg {
+.bg-sec {
   background-color: var(--secondary-bg-color);
 }
 
 .txt-prim {
   color: var(--primary-bg-color);
+}
+
+.txt-sec {
+  color: var(--secondary-bg-color);
 }
