@@ -15,224 +15,208 @@
     defer></script>
 
   <link rel="stylesheet" href="style.css">
+
   <title>Site-Clone</title>
+
 </head>
 
 <body>
 
   <!-- SECTION NAV: BG PRIM + 1 TEXT ELEMENT-->
-  <nav class="bg-prim fs-3 py-1 px-3 text-light">
-
+  <nav class="navbar navbar-expand-lg sticky-top bg-prim">
     <div class="container">
-      <section class="row">
-        <div class="col-md-6">
-          <span class="mdi mdi-food-takeout-box-outline"></span>
-          <span>LOREM IPSUM</span>
-        </div>
-      </section>
+      <a href="" class="navbar-brand mdi mdi-exponent-box text-light fs-1"> LOREM IPSUM</a>
     </div>
-
   </nav>
 
   <!-- SECTION HEADER: BG IMG + 2 CARDS -->
-  <header class="bg-sec py-5">
+  <header class="hero-img text-light">
 
     <div class="container">
-      <section class="row">
-        <div class="col-md-4">
-          <h6 class="text-light">SUBTLE HEADING</h6>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title txt-prim">LESS SUBTLE HEADING</h5>
+      <section class="row justify-content-start">
+        <div class="col-12 mt-2 mb-5 col-md-4 mt-md-4 me-md-4">
+          <h6>SUBTLE HEADING</h6>
+          <div class="card shadow">
+            <div class="card-body ">
+              <h6 class="card-title txt-prim">LESS SUBTLE HEADING</h6>
               <form>
-                <section>
-                  <div class="py-2">
-                    <input class="m-0" type="text" value="NAME">
-                  </div>
-                  <div class="py-2">
-                    <input class="m-0" type="email" value="EMAIL">
-                  </div>
-                  <section class="d-flex">
-                    <div class="py-2">
-                      <input class="m-0" type="tel" value="PHONE">
-                    </div>
-                    <div class="py-2">
-                      <input class="m-0" type="tel" value="EXT.">
-                    </div>
-                  </section>
-                  <div class="py-2">
-                    <textarea class=" m-0">MESSAGE</textarea>
-                  </div>
-                  <div class="d-flex">
-                    <input type="checkbox" id="formCheckbox" checked />
-                    <p class="m-0 p-0">by checking this box I agree to the terms of the lorem ipsum dolor</p>
-                  </div>
-                  <button class="form-btn m-0 py-1 px-4" type="button">SUBMIT</button>
-                </section>
+                <input class="mx-0 form-control custom-form-control" type="text" value="NAME">
+                <input class="mx-0 form-control custom-form-control" type="email" value="EMAIL">
+                <div class="d-flex">
+                  <input class="mx-0 form-control custom-form-control me-1" type="tel" value="PHONE">
+                  <input class="mx-0 form-control custom-form-control ms-1" type="tel" value="EXT.">
+                </div>
+                <textarea class="mx-0 form-control custom-form-control txt-area">MESSAGE</textarea>
+                <div class="d-flex">
+                  <input type="checkbox" id="formCheckbox" checked />
+                  <p class="mx-0">by checking this box I agree to the terms of the lorem ipsum dolor</p>
+                </div>
+                <button class="form-btn m-0" type="button">SUBMIT</button>
               </form>
             </div>
           </div>
         </div>
-        <div class="col-md-5 text-light txt-hidden">
+        <div class="col-md-7 py-5 my-4 txt-hidden">
           <div class="d-flex">
             <span class="grn-line"></span>
-            <div>
+            <div class="mx-5 my-1 text-shadow">
               <h4>TEXT OVER AN IMAGE</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, sed? Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
         </div>
-    </div>
-    </section>
+      </section>
     </div>
 
   </header>
 
-  <!-- SECTION #1: BG PRIM + 2 CARDS -->
-  <section class="bg-prim">
+  <main>
+    <!-- SECTION #1: BG PRIM + 2 CARDS -->
+    <section class="bg-prim">
 
-    <div class="container">
-      <section class="row justify-content-between">
-        <div class="col-md-4">
-          <div class="card my-4">
-            <div class="card-body">
-              <div class="d-flex flex-row justify-content-around">
-                <i class="card-text mdi mdi-wrench"></i>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-around">
-                <i class="card-text mdi mdi-car-back"></i>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-around">
-                <i class="card-text mdi mdi-phone-in-talk"></i>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur. </p>
-              </div>
-              <div class="d-flex flex-row justify-content-around">
-                <i class="card-text mdi mdi-google-assistant"></i>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
-              </div>
-              <div class="d-flex flex-row justify-content-around">
-                <i class="card-text mdi mdi-lightning-bolt-circle"></i>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="container">
+        <section class="row justify-content-start">
+          <div class="col-12 mt-2 mb-2 col-md-4 mt-md-4 me-md-4">
+            <div class="card my-3">
+              <div class="card-body">
+                <div class="d-flex flex-row justify-content-around">
+                  <i class="card-text mdi mdi-wrench"></i>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                  <i class="card-text mdi mdi-car-back"></i>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                  <i class="card-text mdi mdi-phone-in-talk"></i>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur. </p>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                  <i class="card-text mdi mdi-google-assistant"></i>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                  <i class="card-text mdi mdi-lightning-bolt-circle"></i>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-transparent border-0 text-light my-4">
-            <div class="card-body">
-              <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-              <h2 class="card-title">Lorem ipsum dolor sit.</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic, necessitatibus
-                beatae fuga rerum illum, veniam earum nemo molestias facilis non rem? Voluptatibus obcaecati laboriosam
-                dolor, rem culpa eos doloribus?</p>
+          <div class="col-12 mt-2 mb-4 col-md-4 mt-md-4 me-md-4">
+            <div class="card bg-transparent border-1 text-light my-4">
+              <div class="card-body">
+                <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <h2 class="card-title">Lorem ipsum dolor sit.</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores hic,
+                  necessitatibus
+                  beatae fuga rerum illum, veniam earum nemo molestias facilis non rem? Voluptatibus obcaecati
+                  laboriosam
+                  dolor, rem culpa eos doloribus?</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
-    </div>
+        </section>
+      </div>
 
-  </section>
+    </section>
 
-  <!-- SECTION #2: BG LIGHT + 2 CARDS -->
-  <section class="bg-light">
+    <!-- SECTION #2: BG LIGHT + 2 CARDS -->
+    <section class="bg-light">
 
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-md-3">
-          <div class="card my-4">
-            <img
-              src="https://images.unsplash.com/flagged/photo-1556742524-750f2ab99913?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              class="card-img-top" alt="image here">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-12 mt-2 mb-5 col-md-4 mt-md-4 me-md-4">
+            <div class="card my-4">
+              <img
+                src="https://images.unsplash.com/flagged/photo-1556742524-750f2ab99913?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top" alt="image here">
+            </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card bg-transparent border-0 my-4">
-            <i class="mdi mdi-shield-check"></i>
-            <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
-            <h4 class="card-subtitle">Lorem ipsum dolor sit amet.</h4>
-            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem nostrum
-              reprehenderit odio quibusdam, rem veritatis esse aut dolorem quia aliquam obcaecati, non in fugiat labore
-              voluptatibus nihil necessitatibus dolore.</p>
-            <div class="d-flex justify-content-end">
-              <a href="" class="btn bg-prim text-light">MORE</a>
+          <div class="col-12 mt-2 mb-5 col-md-4 mt-md-4 me-md-4">
+            <div class="card bg-transparent border-1 my-4">
+              <h4 class="card-title mdi mdi-shield-check">Lorem ipsum dolor sit amet.</h4>
+              <h4 class="card-subtitle">Lorem ipsum dolor sit amet.</h4>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem nostrum
+                reprehenderit odio quibusdam, rem veritatis esse aut dolorem quia aliquam obcaecati, non in fugiat
+                labore
+                voluptatibus nihil necessitatibus dolore.</p>
+              <div class="d-flex justify-content-end">
+                <a href="" class="btn bg-prim text-light">MORE</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-  </section>
+    </section>
 
-  <!-- SECTION #3: BG TERT + 3 CARDS -->
-  <section class="bg-tert p-5">
+    <!-- SECTION #3: BG TERT + 3 CARDS -->
+    <section class="bg-tert">
 
-    <div class="container">
-      <div class="row d-flex justify-content-between">
-        <div class="col-md-3">
-          <div class="card m-3">
-            <div class="card-body">
-              <div class="card-title d-flex justify-content-center">
-                <i class="mdi mdi-star-circle"></i>
-                <i class="mdi mdi-star-circle"></i>
-                <i class="mdi mdi-star-circle"></i>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 m-2 col-md-3 m-md-4">
+            <div class="card m-3 shadow">
+              <div class="card-body">
+                <div class="card-title d-flex justify-content-center">
+                  <i class="mdi mdi-star-circle"></i>
+                  <i class="mdi mdi-star-circle"></i>
+                  <i class="mdi mdi-star-circle"></i>
+                </div>
+                <p class="card-text d-flex justify-content-center">Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit.</p>
+                <span class="card-text txt-prim d-flex justify-content-center">Lorem ipsum dolor sit amet.</span>
               </div>
-              <p class="card-text d-flex justify-content-center">Lorem ipsum dolor sit amet consectetur adipisicing
-                elit.</p>
-              <span class="card-text txt-prim d-flex justify-content-center">Lorem ipsum dolor sit amet.</span>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card m-3">
-            <div class="card-body">
-              <p class="card-text d-flex justify-content-center">Lorem ipsum dolor sit amet consectetur, adipisicing
-                elit.</p>
-              <span class="card-text txt-prim d-flex justify-content-center">Lorem ipsum dolor sit amet.</span>
+          <div class="col-12 m-2 col-md-3 m-md-4">
+            <div class="card m-3 shadow">
+              <div class="card-body">
+                <p class="card-text d-flex justify-content-center">Lorem ipsum dolor sit amet consectetur, adipisicing
+                  elit.</p>
+                <span class="card-text txt-prim d-flex justify-content-center">Lorem ipsum dolor sit amet.</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card m-3">
-            <div class="card-body">
-              <p class="card-text d-flex justify-content-center">Lorem ipsum dolor sit amet consectetur, adipisicing
-                elit.</p>
-              <span class="card-text txt-prim d-flex justify-content-center">Lorem ipsum dolor sit amet.</span>
+          <div class="col-12 m-2 col-md-3 m-md-4">
+            <div class="card m-3 shadow">
+              <div class="card-body">
+                <p class="card-text d-flex justify-content-center">Lorem ipsum dolor sit amet consectetur, adipisicing
+                  elit.</p>
+                <span class="card-text txt-prim d-flex justify-content-center">Lorem ipsum dolor sit amet.</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-  </section>
+    </section>
 
-  <!-- SECTION #4: BG PRIM + TEXT ELEMENT -->
-  <section class="bg-prim">
+    <!-- SECTION #4: BG PRIM + TEXT ELEMENT -->
+    <section class="bg-prim text-light">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 text-light py-4">
-          <h1>Lorem ipsum dolor sit amet.</h1>
-          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, aut.</h6>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 mt-2 mb-4 col-md-4 mt-md-4 me-md-4">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, aut.</h6>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
 
-  </section>
+    </section>
+
+  </main>
 
   <!-- SECTION FOOTER: BG WHITE + TEXT ELEMENT -->
-  <footer class="bg-light">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-10 py-4">
-          <div class="d-flex justify-content-center txt-prim">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Laudantium, quos?</div>
-        </div>
+  <footer class="bg-light txt-prim">
+
+    <div class="container d-flex justify-content-center">
+      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laudantium, quos?
       </div>
     </div>
+
   </footer>
 
 </body>
