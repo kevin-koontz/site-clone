@@ -28,6 +28,10 @@ textarea {
   }
 }
 
+.txt-custom {
+  font-family: permanent marker;
+}
+
 .custom-form-control {
   border-color: var(--dark-bg-color);
 }
@@ -47,8 +51,6 @@ textarea {
   background-size: cover;
   background-position: center;
 }
-
-/* REMINDER CHANGE CARDS BORDER COLOR */
 
 .bg-prim {
   background-color: var(--primary-bg-color);
